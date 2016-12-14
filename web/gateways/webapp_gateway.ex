@@ -1,5 +1,5 @@
 defmodule ScannerStats.WebappGateway do
-  @timeout 10_000
+  @timeout 20_000
   def get_lead(lead_id) do
     url2 = "http://localhost:7000/api/scanner_leads/"
     url_with_lead = url2 <> to_string(lead_id)
